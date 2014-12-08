@@ -16,7 +16,7 @@ public abstract class AbstractMouth implements IPart {
      * @param color An SVG-parseable color string.
      * @return The SVG elements for teeth.
      */
-    public abstract String drawTeeth(String color);
+    protected abstract String drawTeeth(String color);
 
     /**
      * Return the SVG for a mouth with the passed color.
@@ -24,7 +24,7 @@ public abstract class AbstractMouth implements IPart {
      * @param color An SVG-parseable color string.
      * @return The SVG elements for a mouth.
      */
-    public abstract String drawMouth(String color);
+    protected abstract String drawMouth(String color);
 
     @Override
     public String draw() {

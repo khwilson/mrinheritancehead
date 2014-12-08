@@ -9,12 +9,13 @@ import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
  */
 public class TriangleNose extends AbstractNose {
 
-    int Y1 = 480 / 2 - 28;
-    int Y2 = 480 / 2 + 28;
-    int X1 = 640 / 2 + 16;
-    int X2 = 640 / 2 - 16;
+    private static int Y1 = 480 / 2 - 28;
+    private static int Y2 = 480 / 2 + 28;
+    private static int X1 = 640 / 2 + 16;
+    private static int X2 = 640 / 2 - 16;
+
     @Override
-    public String drawNose(String color) {
+    protected String drawNose(String color) {
         String output = "";
         output += String.format("<line stroke=\"%s\" stroke-width=\"1px\" y2=\"%d\" "
                              + "x2=\"%d\" y1=\"%d\" x1=\"%d\" id=\"nose_down\"/>", color, Y2, X2, Y1, X1);

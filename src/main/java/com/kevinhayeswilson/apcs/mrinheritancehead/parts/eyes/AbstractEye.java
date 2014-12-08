@@ -10,11 +10,29 @@ import com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart;
  */
 public abstract class AbstractEye implements IPart {
 
-    public abstract String drawPupil(String color);
+    /**
+     * Return the SVG for both pupils with the passed color.
+     *
+     * @param color An SVG-parseable color string.
+     * @return The SVG elements for the pupils.
+     */
+    protected abstract String drawPupil(String color);
 
-    public abstract String drawIris(String color);
+    /**
+     * Return the SVG for both irises with the passed color.
+     *
+     * @param color An SVG-parseable color string.
+     * @return The SVG elements for the irises.
+     */
+    protected abstract String drawIris(String color);
 
-    public abstract String drawEye(String color);
+    /**
+     * Return the SVG for both eyes with the passed color.
+     *
+     * @param color An SVG-parseable color string.
+     * @return The SVG elements for the eyes.
+     */
+    protected abstract String drawEye(String color);
 
     @Override
     public String draw() {

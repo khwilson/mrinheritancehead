@@ -15,7 +15,7 @@ public abstract class AbstractFace implements IPart {
      * @param color An SVG-parseable color string.
      * @return The SVG elements for a face.
      */
-    public abstract String drawFace(String color);
+    protected abstract String drawFace(String color);
 
     @Override
     public String draw() {

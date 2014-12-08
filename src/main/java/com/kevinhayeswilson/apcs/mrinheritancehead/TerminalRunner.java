@@ -11,6 +11,8 @@ import java.io.PrintStream;
 
 /**
  * A simple class to test out {@link com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart}s.
+ *
+ * @author Kevin Wilson - khwilson@gmail.com
  */
 public class TerminalRunner {
 

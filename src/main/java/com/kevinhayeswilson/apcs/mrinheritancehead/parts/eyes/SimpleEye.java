@@ -14,7 +14,7 @@ public class SimpleEye extends AbstractEye {
     private static int Y = 150;
 
     @Override
-    public String drawPupil(String color) {
+    protected String drawPupil(String color) {
         String output = "";
         output += String.format("<circle fill=\"%s\" r=\"9.43398\" stroke-width=\"1px\" "
                        + "cy=\"%d\" cx=\"%d\" id=\"left_eye_pupil\"/>", color, Y, LEFT_X);
@@ -24,7 +24,7 @@ public class SimpleEye extends AbstractEye {
     }
 
     @Override
-    public String drawIris(String color) {
+    protected String drawIris(String color) {
         String output = "";
         output += String.format("<circle fill=\"%s\" r=\"16.6589\" stroke-width=\"1px\" "
                   + "cy=\"%d\" cx=\"%d\" id=\"left_eye_iris\"/>", color, Y, LEFT_X);
@@ -35,7 +35,7 @@ public class SimpleEye extends AbstractEye {
     }
 
     @Override
-    public String drawEye(String color) {
+    protected String drawEye(String color) {
         String output = "";
         output += String.format("<ellipse fill=\"%s\" ry=\"25\" rx=\"41\" "
                                 + "stroke-width=\"1px\" cy=\"%d\" cx=\"%d\" "

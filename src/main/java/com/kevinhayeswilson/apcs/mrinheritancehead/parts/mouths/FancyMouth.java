@@ -10,12 +10,12 @@ import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
 public class FancyMouth extends AbstractMouth {
 
     @Override
-    public String drawTeeth(String color) {
+    protected String drawTeeth(String color) {
         return "";
     }
 
     @Override
-    public String drawMouth(String color) {
+    protected String drawMouth(String color) {
         return String.format("<path fill=\"%s\" "
                                + "d=\"M220,300 "
                                + "m208.806,38.728001"
