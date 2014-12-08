@@ -3,7 +3,7 @@ package com.kevinhayeswilson.apcs.mrinheritancehead.parts;
 /**
  * Some static color constants which will be useful in drawing faces.
  *
- * @author Kevin Wilson - kevin@knewton.com
+ * @author Kevin Wilson - khwilson@gmail.com
  */
 public enum Color {
 
