@@ -1,7 +1,7 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.eyes;
+package mrinheritancehead.parts.eyes;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart;
+import mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.IPart;
 
 /**
  * A class which can be used to draw a nose.

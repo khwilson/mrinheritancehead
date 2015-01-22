@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.mouths;
+package mrinheritancehead.parts.mouths;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.Color;
 
 /**
  * A fancy schmancy pathy mouth.
@@ -90,6 +90,6 @@ public class FancyMouth extends AbstractMouth {
 
     @Override
     public String getColor() {
-        return Color.RED.rgb;
+        return Color.BLACK.rgb;
     }
 }

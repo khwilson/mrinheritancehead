@@ -1,4 +1,4 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts;
+package mrinheritancehead.parts;
 
 /**
  * Some static color constants which will be useful in drawing faces.

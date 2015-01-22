@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.faces;
+package mrinheritancehead.parts.faces;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart;
+import mrinheritancehead.parts.IPart;
 
 /**
  * A class which can be used to draw the outline of a face.

@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.faces;
+package mrinheritancehead.parts.faces;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.Color;
 
 /**
  * A simple elliptical face.

@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.noses;
+package mrinheritancehead.parts.noses;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.Color;
 
 /**
  * A simple triangular nose centered on the face.

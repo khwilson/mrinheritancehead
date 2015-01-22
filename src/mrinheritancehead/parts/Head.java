@@ -1,9 +1,9 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts;
+package mrinheritancehead.parts;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.eyes.AbstractEye;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.faces.AbstractFace;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.mouths.AbstractMouth;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.noses.AbstractNose;
+import mrinheritancehead.parts.eyes.AbstractEye;
+import mrinheritancehead.parts.faces.AbstractFace;
+import mrinheritancehead.parts.mouths.AbstractMouth;
+import mrinheritancehead.parts.noses.AbstractNose;
 
 /**
  * The wrapper class that handles drawing a 640 x 480 face.

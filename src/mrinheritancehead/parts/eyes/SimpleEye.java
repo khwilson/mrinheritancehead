@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.eyes;
+package mrinheritancehead.parts.eyes;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.Color;
 
 /**
  * A simple, googly pair of eyes.

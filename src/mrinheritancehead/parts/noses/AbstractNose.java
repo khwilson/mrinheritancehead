@@ -1,6 +1,6 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.noses;
+package mrinheritancehead.parts.noses;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart;
+import mrinheritancehead.parts.IPart;
 
 /**
  * A class which can be used to draw a nose.

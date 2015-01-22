@@ -1,16 +1,16 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead;
+package mrinheritancehead;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Head;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.eyes.SimpleEye;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.faces.SimpleFace;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.mouths.FancyMouth;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.noses.TriangleNose;
+import mrinheritancehead.parts.Head;
+import mrinheritancehead.parts.eyes.SimpleEye;
+import mrinheritancehead.parts.faces.SimpleFace;
+import mrinheritancehead.parts.mouths.FancyMouth;
+import mrinheritancehead.parts.noses.TriangleNose;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
 /**
- * A simple class to test out {@link com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart}s.
+ * A simple class to test out {@link mrinheritancehead.parts.IPart}s.
  *
  * @author Kevin Wilson - khwilson@gmail.com
  */

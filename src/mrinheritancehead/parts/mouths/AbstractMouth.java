@@ -1,7 +1,7 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts.mouths;
+package mrinheritancehead.parts.mouths;
 
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.Color;
-import com.kevinhayeswilson.apcs.mrinheritancehead.parts.IPart;
+import mrinheritancehead.parts.Color;
+import mrinheritancehead.parts.IPart;
 
 /**
  * A class which can be used to draw a mouth.

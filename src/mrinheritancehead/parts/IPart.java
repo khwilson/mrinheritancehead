@@ -1,4 +1,4 @@
-package com.kevinhayeswilson.apcs.mrinheritancehead.parts;
+package mrinheritancehead.parts;
 
 /**
  * A part of a face.
